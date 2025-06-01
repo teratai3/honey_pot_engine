@@ -7,6 +7,8 @@ How to use my plugin.
 ## Installation
 Add this line to your application's Gemfile:
 
+https://rubygems.org/gems/honey_pot_engine
+
 ```ruby
 gem "honey_pot_engine"
 ```
