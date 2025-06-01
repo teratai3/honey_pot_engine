@@ -3,9 +3,9 @@ require_relative "lib/honey_pot_engine/version"
 Gem::Specification.new do |spec|
   spec.name        = "honey_pot_engine"
   spec.version     = HoneyPotEngine::VERSION
-  spec.authors     = [ "terao" ]
+  spec.authors     = [ "teratai3" ]
   spec.email       = [ "" ]
-  spec.homepage    = "https://github.com/terao/honey_pot_engine"
+  spec.homepage    = "https://github.com/teratai3/honey_pot_engine"
   spec.summary     = "Honeypot anti-spam field for Rails forms"
   spec.description = "A lightweight Rails engine that inserts honeypot fields into forms and automatically blocks spammy submissions."
 
@@ -14,8 +14,8 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/terao/honey_pot_engine"
-  spec.metadata["changelog_uri"]   = "https://github.com/terao/honey_pot_engine/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/teratai3/honey_pot_engine"
+  spec.metadata["changelog_uri"]   = "https://github.com/teratai3/honey_pot_engine"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
